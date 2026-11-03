@@ -1,0 +1,10 @@
+{
+  "name": "DevPort - Professional Frontend Portfolio",
+  "description": "A modern, professional portfolio for Prerna Gharge, Software Engineer at AV DEVS Solutions, showcasing experience, skills, and projects with Gemini multi-turn AI and audio transcription.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
