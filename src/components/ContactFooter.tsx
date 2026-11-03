@@ -162,9 +162,13 @@ export function Footer() {
         </p>
 
         <div className="flex justify-center gap-8 mb-8">
-          {['LinkedIn', 'GitHub', 'Twitter', 'Resume'].map(platform => (
-            <a key={platform} href="#" className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-400 hover:text-white transition-colors">
-              {platform}
+          {([
+            { label: 'LinkedIn', href: DEVELOPER_INFO.linkedin },
+            { label: 'GitHub', href: DEVELOPER_INFO.github },
+            { label: 'Resume', href: DEVELOPER_INFO.resumeUrl },
+          ]).map(({ label, href }) => (
+            <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-400 hover:text-white transition-colors">
+              {label}
             </a>
           ))}
         </div>

@@ -9,7 +9,7 @@ export const DEVELOPER_INFO = {
   about: "I am a Software Engineer currently working at AV DEVS Solutions, specializing in architecting modern web applications, scalable frontend architectures, and responsive user interfaces. With hands-on experience across React, Angular, TypeScript, modern JavaScript, and component-driven development, I love transforming complex product requirements into clean, performant, and delightful digital experiences.",
   email: "prerugharge19@gmail.com",
   linkedin: "https://linkedin.com/in/prerna-gharge",
-  github: "https://github.com/prernagharge",
+  github: "https://github.com/Prerna1910",
   resumeUrl: "#resume"
 };
 
